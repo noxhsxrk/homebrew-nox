@@ -6,7 +6,7 @@ class AliasManagerScript < Formula
   license "MIT"
 
   def install
-    bin.install "alias_manager.sh" => "alias-manager"
+    bin.install "manual.sh" => "alias-manager"
   end
 
   test do
