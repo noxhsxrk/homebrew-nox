@@ -6,7 +6,7 @@
      license "MIT"
 
      def install
-       bin.install "alias-manager-script-1.0.0/manual" => "alias-manager"
+       bin.install "manual" => "alias-manager"
      end
 
      test do
