@@ -1,8 +1,8 @@
 class AiPreCommit < Formula
     desc "A description of your project"
     homepage "https://github.com/noxhsxrk/ai-pre-commit"
-    url "https://github.com/noxhsxrk/ai-pre-commit/archive/refs/tags/v1.0.1.tar.gz"
-    sha256 "708b8e1f7879808ee893ad7ca22e65e0772c6ef1013e432d66c22cf62d68011b"
+    url "https://github.com/noxhsxrk/ai-pre-commit/archive/refs/tags/v1.0.2.tar.gz"
+    sha256 "dafc886b4adeffea26742504a2f4e81ff1d54831ad5d917514a154eb3a5feba5"
     license "MIT"
   
     depends_on "python@3.9"
