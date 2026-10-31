@@ -1,9 +1,9 @@
 class ChatgptLocalWorkspace < Formula
   desc "Connect a local workspace to ChatGPT through an MCP tunnel"
   homepage "https://github.com/noxhsxrk/chatgpt-local-workspace"
-  url "https://github.com/noxhsxrk/chatgpt-local-workspace/archive/refs/tags/v0.2.8.tar.gz"
-  version "0.2.8"
-  sha256 "c0294838951113fef9299ab07259ec3bc4666fccb1ea68f83941165b2886be94"
+  url "https://github.com/noxhsxrk/chatgpt-local-workspace/archive/refs/tags/v0.2.9.tar.gz"
+  version "0.2.9"
+  sha256 "6e977e94480b381808d515d317c68b9170d0c7e69bd3189cd758b113f41b4851"
   license all_of: ["MIT", "Apache-2.0", "BSD-3-Clause"]
 
   depends_on "go" => :build
@@ -24,6 +24,7 @@ class ChatgptLocalWorkspace < Formula
       exec /bin/bash "#{libexec}/start-tunnel.sh" "$@"
     EOS
     chmod 0755, bin/"chatgpt-local-workspace"
+    bin.install_symlink "chatgpt-local-workspace" => "clw"
   end
 
   test do
