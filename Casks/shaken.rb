@@ -1,6 +1,6 @@
 cask "shaken" do
-  version "0.1.0"
-  sha256 "407e9224a09340b49fc3a9aaed7a4c012e9a263f1afd8dd4f04893eb0e704598"
+  version "0.1.1"
+  sha256 "072620f6a2c1070127d2a7feb7f290d27c258b1fd8b765c9c75f06d80a92d2e0"
 
   url "https://github.com/noxhsxrk/shaken/releases/download/v#{version}/Shaken-#{version}.dmg"
   name "Shaken"
