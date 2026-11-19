@@ -1,6 +1,6 @@
 cask "fingerstick" do
-  version "1.1.0"
-  sha256 "56a503469336176c4f2bbd4da6f4b06b6062ca854b45123ff0e66c2cc7d2f6bc"
+  version "1.1.1"
+  sha256 "b9410dde45500ca24b81ccb5f4102fd4b5a62882f3081e5d89f9d39cd3fae841"
 
   url "https://github.com/noxhsxrk/finger-stick/releases/download/v#{version}/FingerStick-#{version}.zip"
   name "FingerStick"
