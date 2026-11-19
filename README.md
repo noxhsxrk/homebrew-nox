@@ -20,6 +20,8 @@ It opens on first launch without the Gatekeeper prompt, and updates itself from 
 [FingerStick](https://github.com/noxhsxrk/finger-stick) is a menu-bar app for macOS: hold Control and a pointing hand on a stick taps the screen at your cursor.
 
 ```bash
+brew tap noxhsxrk/nox
+brew trust --cask noxhsxrk/nox/fingerstick   # Homebrew 7+ only loads third-party casks you trust
 brew install --cask noxhsxrk/nox/fingerstick
 ```
 
